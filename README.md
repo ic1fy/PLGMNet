@@ -161,33 +161,19 @@ python app.py
 
 Open `http://localhost:5000` in your browser. Upload a steel surface image to see the defect segmentation result.
 
-## Results
-
-*Metrics and benchmark results on the test set (384×384 input, single GPU):*
-
-| Metric | Value |
-|--------|-------|
-| S-measure | — |
-| Weighted F-measure | — |
-| MAE | — |
-| E-measure | — |
-| Max F-measure | — |
-| FPS | — |
-| Params | — |
-| FLOPs | — |
-
-> Run `python test.py` with your pretrained weights to fill in the table above.
 
 ## Citation
 
 If you use this work in your research, please cite:
 
 ```bibtex
-@article{PLGMNet,
-  title     = {PLGMNet: Parallel Local-Global Mamba Network for Real-Time Steel Surface Defect Detection},
-  author    = {},
-  journal   = {},
-  year      = {},
+@inproceedings{zhang_plgmnet_2026,
+	title = {PLGMNet: Parallel Local-Global Mamba Network for Real-Time Steel Surface Defect Detection},
+	booktitle = {Pattern Recognition and Computer Vision},
+	publisher = {Springer Nature Singapore},
+	author = {Zhang, Ju and Li, Chenlei and Zhou, Xiaofei and Wu, Yong and Liu, Deyang and Zhang, Jiyong and Liu, Zhi},
+	year = {2026},
+	pages = {355--369},
 }
 ```
 
